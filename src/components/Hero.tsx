@@ -39,7 +39,7 @@ export default function Hero() {
   const typed = useTypingEffect(typingWords)
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 overflow-hidden">
       {/* Background grid */}
       <div
         className="absolute inset-0 opacity-[0.04]"
@@ -55,8 +55,8 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 border border-white/15 rounded-full text-xs text-gray-400 mb-8 animate-fade-in">
-          <span className="w-1.5 h-1.5 bg-white rounded-full inline-block" />
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 border border-white/15 rounded-full text-xs text-gray-400 mb-8 animate-fade-in whitespace-nowrap">
+          <span className="w-1.5 h-1.5 bg-white rounded-full inline-block shrink-0" />
           Desenvolvimento de Software sob medida
         </div>
 
