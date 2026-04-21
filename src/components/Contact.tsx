@@ -41,7 +41,7 @@ export default function Contact() {
       `🛠️ Serviço: ${form.service}\n\n` +
       `💬 ${form.message}`
     )
-    window.open(`https://wa.me/5500000000000?text=${msg}`, '_blank')
+    window.open(`https://wa.me/5535998471996?text=${msg}`, '_blank')
     setSubmitted(true)
   }
 
@@ -81,7 +81,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5535998471996"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"

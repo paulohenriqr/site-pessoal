@@ -103,9 +103,9 @@ export default function Hero() {
         {/* Stats */}
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-fade-in anim-delay-500">
           {[
-            { label: 'Projetos entregues', value: '10+' },
-            { label: 'Clientes atendidos', value: '8+' },
-            { label: 'Anos de experiência', value: '3+' },
+            { label: 'Projetos entregues', value: '30+' },
+            { label: 'Clientes atendidos', value: '30+' },
+            { label: 'Anos de experiência', value: '4+' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-white mb-1">{stat.value}</div>

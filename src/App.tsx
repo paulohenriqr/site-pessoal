@@ -4,7 +4,7 @@ import Services from './components/Services'
 import About from './components/About'
 import WhyUs from './components/WhyUs'
 import Process from './components/Process'
-import Portfolio from './components/Portfolio'
+// import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -18,7 +18,7 @@ export default function App() {
         <About />
         <WhyUs />
         <Process />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Contact />
       </main>
       <Footer />
